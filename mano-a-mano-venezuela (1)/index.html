@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mano a Mano Venezuela | Brigada 99HDD</title>
+    <meta name="description" content="Red de voluntariado nacida el 25 de junio tras la búsqueda solidaria de la suegra del fundador. La Brigada 99HDD atiende ininterrumpidamente a más de 16 albergues y centros de asistencia en el estado La Guaira." />
+    <meta property="og:title" content="Mano a Mano Venezuela | Brigada 99HDD" />
+    <meta property="og:description" content="Red de voluntariado nacida el 25 de junio tras la búsqueda solidaria de la suegra del fundador. La Brigada 99HDD atiende ininterrumpidamente a más de 16 albergues y centros de asistencia en el estado La Guaira." />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/png" href="/ORGANIZACIÓN SIN FINES DE LUCRO-01.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['"Inter"', 'sans-serif'],
+              serif: ['"Playfair Display"', 'serif'],
+            },
+
+            colors: {
+              brand: {
+                dark: '#310062',
+                accent: '#C1124F',
+                ocean: '#0d7a85',
+                cream: '#f8f5ee',
+                gold: '#D4AF37'
+              }
+            },
+            boxShadow: {
+              'soft': '0 10px 40px -10px rgba(0,0,0,0.08)',
+              'glow': '0 0 40px -10px rgba(193, 18, 79, 0.5)',
+              'glow-lg': '0 0 60px -10px rgba(193, 18, 79, 0.7)',
+            },
+            animation: {
+              'shimmer': 'shimmer 2.5s infinite linear',
+              'float': 'float 6s ease-in-out infinite',
+              'float-delayed': 'float 6s ease-in-out 3s infinite',
+              'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            },
+            keyframes: {
+              shimmer: {
+                '0%': { transform: 'translateX(-100%)' },
+                '100%': { transform: 'translateX(200%)' }
+              },
+              float: {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-20px)' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 80px;
+      }
+      body {
+        background-color: #f8f5ee;
+        color: #1a1a1a;
+      }
+    </style>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

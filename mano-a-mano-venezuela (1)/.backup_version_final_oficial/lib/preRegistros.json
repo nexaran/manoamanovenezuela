@@ -1,0 +1,29 @@
+[
+  {
+    "id": "pre-demo-001",
+    "caseId": "CASO-LG-2026-005",
+    "fullName": "Mariana Rodríguez",
+    "cedula": "V-18.421.903",
+    "phone": "+58 412-5551234",
+    "location": "Sector Montesano, Calle Real, Casa #14",
+    "parroquia": "Carlos Soublette",
+    "familyMembers": 4,
+    "childrenCount": 2,
+    "elderlyOrDisabled": true,
+    "priorityNeed": "techo_materiales",
+    "narrative": "Buenas tardes, somos una familia de 4 personas, mi mamá tiene 72 años y tengo dos niños pequeños. La lluvia del doblete sísmico nos causó grietas en la pared lateral y el techo comenzó a filtrar fuertemente sobre las camas. Hemos colocado plásticos provisionales pero el agua sigue pasando. Mi esposo hace trabajos informales y no nos alcanza para comprar las láminas de zinc ni cemento.",
+    "timestamp": "2026-07-03T14:22:00.000Z",
+    "status": "recibido",
+    "aiResponse": {
+      "empatheticMessage": "Mariana, recibimos tu mensaje con todo el cariño y respeto. Sabemos lo angustiante que es ver tu hogar afectado y proteger a tu madre de 72 años y a tus dos pequeños bajo la lluvia. Tu fuerza como madre y pilar de hogar es admirable. Hemos asignado a tu familia el expediente CASO-LG-2026-005 y nuestro equipo de la Brigada 99HDD revisará los detalles para coordinar una inspección presencial en Montesano.",
+      "identifiedNeeds": ["10 láminas de zinc", "Materiales para refuerzo de pared lateral", "Plásticos y kits de protección"],
+      "priorityAssessment": "Alta prioridad (presencia de adulta mayor y menores con filtraciones directas)",
+      "nextSteps": [
+        "Revisión preliminar del expediente por el equipo de enlace",
+        "Contacto por WhatsApp/llamada para acordar hora de visita",
+        "Inspección presencial para verificar seguridad estructural y levantar ficha definitiva"
+      ]
+    },
+    "syncedToDrive": true
+  }
+]
