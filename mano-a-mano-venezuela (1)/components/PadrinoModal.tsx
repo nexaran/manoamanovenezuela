@@ -343,7 +343,7 @@ export const PadrinoModal: React.FC<PadrinoModalProps> = ({ isOpen, onClose }) =
                   </a>
 
                   <a
-                    href="https://instagram.com/jesusblancogarcia_"
+                    href="https://instagram.com/jesusblancogarcia__"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-center gap-2 py-3 px-4 bg-white/10 hover:bg-white/20 text-white border border-white/20 rounded-xl text-xs sm:text-sm font-semibold transition-colors text-center"
