@@ -1103,7 +1103,7 @@ function MainContent() {
                   </li>
                   <li>
                     <a 
-                      href="https://instagram.com/jesusblancogarcia_" 
+                      href="https://instagram.com/jesusblancogarcia__" 
                       target="_blank" 
                       rel="noopener noreferrer" 
                       className="flex items-center gap-3 text-stone-700 hover:text-brand-ocean transition-colors group"
@@ -1111,7 +1111,7 @@ function MainContent() {
                       <span className="w-8 h-8 rounded-xl bg-stone-100 group-hover:bg-brand-ocean/10 text-stone-600 group-hover:text-brand-ocean flex items-center justify-center shrink-0 transition-colors">
                         <Instagram size={15} />
                       </span>
-                      <span className="font-medium">@jesusblancogarcia_</span>
+                      <span className="font-medium">@jesusblancogarcia__</span>
                     </a>
                   </li>
                 </ul>
