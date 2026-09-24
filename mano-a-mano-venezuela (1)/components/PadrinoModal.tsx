@@ -258,8 +258,8 @@ export const PadrinoModal: React.FC<PadrinoModalProps> = ({ isOpen, onClose }) =
                     <Mail size={14} /> manomanovzla@gmail.com
                   </a>
                   <span>•</span>
-                  <a href="https://instagram.com/jesusblancogarcia_" target="_blank" rel="noreferrer" className="flex items-center gap-1 hover:text-brand-ocean transition-colors">
-                    <Instagram size={14} /> @jesusblancogarcia_
+                  <a href="https://instagram.com/jesusblancogarcia__" target="_blank" rel="noreferrer" className="flex items-center gap-1 hover:text-brand-ocean transition-colors">
+                    <Instagram size={14} /> @jesusblancogarcia__
                   </a>
                 </div>
               </div>
