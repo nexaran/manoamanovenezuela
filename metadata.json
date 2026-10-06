@@ -1,0 +1,8 @@
+{
+  "name": "Mano a Mano Venezuela",
+  "description": "Red de voluntariado nacida el 25 de junio tras la búsqueda solidaria de la suegra del fundador. La Brigada 99HDD atiende ininterrumpidamente a más de 16 albergues y centros de asistencia en el estado La Guaira.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,52 @@
+@keyframes btn-vibrate {
+  0%, 65%, 100% {
+    transform: scale(1) translate(0, 0) rotate(0deg);
+  }
+  68% {
+    transform: scale(1.03) translate(-2px, -1px) rotate(-1.5deg);
+  }
+  71% {
+    transform: scale(1.03) translate(2px, 1px) rotate(1.5deg);
+  }
+  74% {
+    transform: scale(1.04) translate(-2px, 1px) rotate(-1deg);
+  }
+  77% {
+    transform: scale(1.04) translate(2px, -1px) rotate(1deg);
+  }
+  80% {
+    transform: scale(1.02) translate(-1px, 0) rotate(-0.5deg);
+  }
+  83% {
+    transform: scale(1.01) translate(1px, 0) rotate(0.5deg);
+  }
+  86% {
+    transform: scale(1) translate(0, 0) rotate(0deg);
+  }
+}
+
+@keyframes btn-glow-pulse {
+  0%, 100% {
+    box-shadow: 0 0 12px rgba(193, 18, 79, 0.5), 0 0 22px rgba(212, 175, 55, 0.3), 0 4px 14px rgba(0, 0, 0, 0.15);
+  }
+  50% {
+    box-shadow: 0 0 24px rgba(193, 18, 79, 0.9), 0 0 38px rgba(212, 175, 55, 0.6), 0 6px 20px rgba(193, 18, 79, 0.45);
+  }
+}
+
+@keyframes shine-sweep {
+  0% {
+    transform: translateX(-160%) skewX(-20deg);
+  }
+  35%, 100% {
+    transform: translateX(280%) skewX(-20deg);
+  }
+}
+
+.anim-vibrate-glow {
+  animation: btn-vibrate 3s ease-in-out infinite, btn-glow-pulse 2s ease-in-out infinite;
+}
+
+.anim-shine {
+  animation: shine-sweep 3s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
