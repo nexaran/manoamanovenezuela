@@ -1,0 +1,195 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <!-- Clip Path for the inner badge area -->
+    <clipPath id="innerBadgeClip">
+      <circle cx="300" cy="300" r="258" />
+    </clipPath>
+
+    <!-- Path for the curved banner text "ORGANIZACIÓN SIN FINES DE LUCRO" -->
+    <path id="archBannerTextPath" d="M 72,386 Q 300,344 528,386" fill="none" />
+
+    <!-- Path for the curved bottom text "De Guaireños para Guaireños" -->
+    <path id="bottomArcPath" d="M 108,405 A 214,214 0 0,0 492,405" fill="none" />
+  </defs>
+
+  <!-- Outer background circle -->
+  <circle cx="300" cy="300" r="294" fill="#ffffff" />
+
+  <!-- Outermost Thick Maroon Ring -->
+  <circle cx="300" cy="300" r="281" fill="none" stroke="#781134" stroke-width="16" />
+
+  <!-- Thin Inner Maroon Ring -->
+  <circle cx="300" cy="300" r="262" fill="none" stroke="#781134" stroke-width="3" />
+
+  <!-- Pure White Inner Badge Circle -->
+  <circle cx="300" cy="300" r="259" fill="#ffffff" />
+
+  <!-- Inside Clipped Graphics (Top Flag & Sun of La Guaira / Gual y España) -->
+  <g clip-path="url(#innerBadgeClip)">
+    
+    <!-- Top-Right Patriotic Vertical Stripes -->
+    <!-- Yellow Stripe with angled top -->
+    <polygon points="378,66 420,86 420,342 378,342" fill="#f8b600" />
+    <!-- Red Stripe with angled top -->
+    <polygon points="420,86 462,106 462,342 420,342" fill="#cf1c26" />
+    <!-- White Stripe -->
+    <polygon points="462,106 503,126 503,342 462,342" fill="#ffffff" />
+    <!-- Navy Blue Stripe on the right edge -->
+    <polygon points="503,126 546,146 546,342 503,342" fill="#0d2e73" />
+
+    <!-- Golden Sun of La Guaira (Sol de Mayo / Gual y España) on Top-Left -->
+    <g transform="translate(224, 168)">
+      <!-- Radiant Flame Rays (Golden yellow with warm orange outline) -->
+      <g fill="#f8b600" stroke="#c45800" stroke-width="2" stroke-linejoin="round">
+        <!-- 16 Alternating Flame & Triangle Rays -->
+        <!-- 0 deg (Top) -->
+        <path d="M 0,-58 Q 7,-48 8,-38 L -8,-38 Q -7,-48 0,-58 Z" />
+        <path d="M 0,-68 L 7,-40 L -7,-40 Z" fill="#f8b600" />
+        
+        <!-- 22.5 deg -->
+        <g transform="rotate(22.5)">
+          <path d="M 0,-58 L 6,-38 L -6,-38 Z" fill="#f8b600" />
+        </g>
+        <!-- 45 deg -->
+        <g transform="rotate(45)">
+          <path d="M 0,-58 Q 7,-48 8,-38 L -8,-38 Q -7,-48 0,-58 Z" />
+          <path d="M 0,-68 L 7,-40 L -7,-40 Z" fill="#f8b600" />
+        </g>
+        <!-- 67.5 deg -->
+        <g transform="rotate(67.5)">
+          <path d="M 0,-58 L 6,-38 L -6,-38 Z" fill="#f8b600" />
+        </g>
+        <!-- 90 deg (Right) -->
+        <g transform="rotate(90)">
+          <path d="M 0,-58 Q 7,-48 8,-38 L -8,-38 Q -7,-48 0,-58 Z" />
+          <path d="M 0,-68 L 7,-40 L -7,-40 Z" fill="#f8b600" />
+        </g>
+        <!-- 112.5 deg -->
+        <g transform="rotate(112.5)">
+          <path d="M 0,-58 L 6,-38 L -6,-38 Z" fill="#f8b600" />
+        </g>
+        <!-- 135 deg -->
+        <g transform="rotate(135)">
+          <path d="M 0,-58 Q 7,-48 8,-38 L -8,-38 Q -7,-48 0,-58 Z" />
+          <path d="M 0,-68 L 7,-40 L -7,-40 Z" fill="#f8b600" />
+        </g>
+        <!-- 157.5 deg -->
+        <g transform="rotate(157.5)">
+          <path d="M 0,-58 L 6,-38 L -6,-38 Z" fill="#f8b600" />
+        </g>
+        <!-- 180 deg (Bottom) -->
+        <g transform="rotate(180)">
+          <path d="M 0,-58 Q 7,-48 8,-38 L -8,-38 Q -7,-48 0,-58 Z" />
+          <path d="M 0,-68 L 7,-40 L -7,-40 Z" fill="#f8b600" />
+        </g>
+        <!-- 202.5 deg -->
+        <g transform="rotate(202.5)">
+          <path d="M 0,-58 L 6,-38 L -6,-38 Z" fill="#f8b600" />
+        </g>
+        <!-- 225 deg -->
+        <g transform="rotate(225)">
+          <path d="M 0,-58 Q 7,-48 8,-38 L -8,-38 Q -7,-48 0,-58 Z" />
+          <path d="M 0,-68 L 7,-40 L -7,-40 Z" fill="#f8b600" />
+        </g>
+        <!-- 247.5 deg -->
+        <g transform="rotate(247.5)">
+          <path d="M 0,-58 L 6,-38 L -6,-38 Z" fill="#f8b600" />
+        </g>
+        <!-- 270 deg (Left) -->
+        <g transform="rotate(270)">
+          <path d="M 0,-58 Q 7,-48 8,-38 L -8,-38 Q -7,-48 0,-58 Z" />
+          <path d="M 0,-68 L 7,-40 L -7,-40 Z" fill="#f8b600" />
+        </g>
+        <!-- 292.5 deg -->
+        <g transform="rotate(292.5)">
+          <path d="M 0,-58 L 6,-38 L -6,-38 Z" fill="#f8b600" />
+        </g>
+        <!-- 315 deg -->
+        <g transform="rotate(315)">
+          <path d="M 0,-58 Q 7,-48 8,-38 L -8,-38 Q -7,-48 0,-58 Z" />
+          <path d="M 0,-68 L 7,-40 L -7,-40 Z" fill="#f8b600" />
+        </g>
+        <!-- 337.5 deg -->
+        <g transform="rotate(337.5)">
+          <path d="M 0,-58 L 6,-38 L -6,-38 Z" fill="#f8b600" />
+        </g>
+      </g>
+
+      <!-- Central Sun Face Disk -->
+      <circle cx="0" cy="0" r="38" fill="#f8b600" stroke="#c45800" stroke-width="2.5" />
+
+      <!-- Human Face Expressive Details -->
+      <!-- Eyebrows -->
+      <path d="M -18,-11 Q -11,-16 -4,-10" fill="none" stroke="#8a2800" stroke-width="2.2" stroke-linecap="round" />
+      <path d="M 4,-10 Q 11,-16 18,-11" fill="none" stroke="#8a2800" stroke-width="2.2" stroke-linecap="round" />
+      
+      <!-- Eyes with eyelids -->
+      <ellipse cx="-11" cy="-5" rx="4.5" ry="2.8" fill="#8a2800" />
+      <ellipse cx="11" cy="-5" rx="4.5" ry="2.8" fill="#8a2800" />
+      <path d="M -16,-5 Q -11,-9 -6,-5" fill="none" stroke="#8a2800" stroke-width="1.8" stroke-linecap="round" />
+      <path d="M 6,-5 Q 11,-9 16,-5" fill="none" stroke="#8a2800" stroke-width="1.8" stroke-linecap="round" />
+
+      <!-- Nose -->
+      <path d="M 0,-6 L -2.5,5 L 2.5,5" fill="none" stroke="#8a2800" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      
+      <!-- Cheeks subtle -->
+      <circle cx="-16" cy="5" r="4" fill="#e07a00" opacity="0.35" />
+      <circle cx="16" cy="5" r="4" fill="#e07a00" opacity="0.35" />
+
+      <!-- Mouth with smile lips -->
+      <path d="M -11,14 Q 0,20 11,14" fill="none" stroke="#8a2800" stroke-width="2.4" stroke-linecap="round" />
+      <path d="M -7,18 Q 0,21 7,18" fill="none" stroke="#8a2800" stroke-width="1.5" stroke-linecap="round" />
+    </g>
+
+    <!-- Horizontal Navy Blue Bar (Flag element under sun, with 4 stars) -->
+    <!-- Starts at left circle edge and extends to yellow stripe -->
+    <polygon points="65,264 378,264 378,340 68,352" fill="#0d2e73" />
+
+    <!-- 4 White 5-Pointed Stars -->
+    <!-- Star 1 -->
+    <g transform="translate(122, 307) scale(14)">
+      <polygon points="0,-1 0.588,0.809 -0.951,-0.309 0.951,-0.309 -0.588,0.809" fill="#ffffff" />
+    </g>
+    <!-- Star 2 -->
+    <g transform="translate(188, 307) scale(14)">
+      <polygon points="0,-1 0.588,0.809 -0.951,-0.309 0.951,-0.309 -0.588,0.809" fill="#ffffff" />
+    </g>
+    <!-- Star 3 -->
+    <g transform="translate(254, 307) scale(14)">
+      <polygon points="0,-1 0.588,0.809 -0.951,-0.309 0.951,-0.309 -0.588,0.809" fill="#ffffff" />
+    </g>
+    <!-- Star 4 -->
+    <g transform="translate(320, 307) scale(14)">
+      <polygon points="0,-1 0.588,0.809 -0.951,-0.309 0.951,-0.309 -0.588,0.809" fill="#ffffff" />
+    </g>
+
+  </g>
+
+  <!-- Middle Curved Banner Text: "ORGANIZACIÓN SIN FINES DE LUCRO" -->
+  <text fill="#144d78" font-family="'Arial Narrow', 'Franklin Gothic Medium', 'Arial Black', sans-serif" font-weight="900" font-size="24.5" letter-spacing="0.5px">
+    <textPath href="#archBannerTextPath" xlink:href="#archBannerTextPath" startOffset="50%" text-anchor="middle">
+      ORGANIZACIÓN SIN FINES DE LUCRO
+    </textPath>
+  </text>
+
+  <!-- Biblical Reference: "M 18:20" -->
+  <text 
+    x="300" 
+    y="446" 
+    text-anchor="middle" 
+    fill="#941438" 
+    font-family="'Rockwell', 'Clarendon', 'Georgia', serif" 
+    font-weight="900" 
+    font-size="33" 
+    letter-spacing="2px"
+  >
+    M 18:20
+  </text>
+
+  <!-- Bottom Curved Text: "De Guaireños para Guaireños" -->
+  <text fill="#2a0c60" font-family="'Arial Rounded MT Bold', 'Montserrat', 'Trebuchet MS', sans-serif" font-weight="900" font-size="33" letter-spacing="0.5px">
+    <textPath href="#bottomArcPath" xlink:href="#bottomArcPath" startOffset="50%" text-anchor="middle">
+      De Guaireños para Guaireños
+    </textPath>
+  </text>
+</svg>
